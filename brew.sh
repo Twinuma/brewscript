@@ -6,7 +6,11 @@ brew upgrade
 echo -e "\n####### Homebrew Check #######\n"
 brew -v list
 brew doctor
- 
+
+# aws-cli
+echo -e "\n####### aws-cli upgrade ######\n"
+pip install --upgrade awscli
+
 # WP-CLI
 echo -e "\n####### WP-CLI Update #######\n"
 cd ~/.wp-cli
