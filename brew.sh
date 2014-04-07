@@ -9,7 +9,7 @@ brew doctor
 
 # aws-cli
 echo -e "\n####### aws-cli upgrade ######\n"
-#pip install --upgrade awscli
+sudo pip install --upgrade awscli
 
 # WP-CLI
 echo -e "\n####### WP-CLI Update #######\n"
